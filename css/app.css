@@ -671,15 +671,19 @@ a {
 
 @-webkit-keyframes defile {
   0% {
-    left: 0; }
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
   100% {
-    left: -40%; } }
+    -webkit-transform: translateX(-60%);
+            transform: translateX(-60%); } }
 
 @keyframes defile {
   0% {
-    left: 0; }
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
   100% {
-    left: -40%; } }
+    -webkit-transform: translateX(-60%);
+            transform: translateX(-60%); } }
 
 .layer {
   position: fixed;

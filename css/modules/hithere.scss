@@ -16,15 +16,14 @@
     text-transform: uppercase;
     font-family: $black;
     color: $blue;
-
     animation: defile 2s forwards linear;
 
     @keyframes defile {
       0% {
-        left: 0;
+        transform: translateX(0);
       }
       100% {
-        left: -40%;
+        transform: translateX(-60%);
       }
     }
   }

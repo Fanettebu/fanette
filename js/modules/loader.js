@@ -7,10 +7,10 @@ $(document).ready(function(){
   });
 
   hithere.add([
-    TweenMax.to(".loader-container", .2, {backgroundColor: "white"})
+    TweenMax.to(".loader-container", .01, {backgroundColor: "white", delay: .2})
   ])
   .add([
-    TweenMax.to(".loader-container", .2, {backgroundColor: "black"})
+    TweenMax.to(".loader-container", .01, {backgroundColor: "black", delay: .2})
   ]);
 
   setTimeout(function(){
