@@ -1,0 +1,25 @@
+$blue: #0000ff;
+$regular: "helveticaneueregular",Helvetica,Arial,sans-serif;
+$regularitalic: "helveticaneueitalic",Helvetica,Arial,sans-serif;
+$medium: "helveticaneuemedium",Helvetica,Arial,sans-serif;
+$bold: "helveticaneuebold",Helvetica,Arial,sans-serif;
+$black: "helveticaneueheavy",Helvetica,Arial,sans-serif;
+$light: "helveticaneuelight",Helvetica,Arial,sans-serif;
+$ultralight: "helveticaneuethin",Helvetica,Arial,sans-serif;
+
+body {
+  opacity: 0;
+  color: white;
+  background-color: black;
+  font-family: $regular;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}

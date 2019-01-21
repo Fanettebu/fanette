@@ -1,0 +1,12 @@
+.layer {
+  position: fixed;
+  left: 50px;
+  bottom: 40px;
+  font-family: $light;
+  color: rgba(255,255,255, .7);
+  font-size: 15px;
+  @media screen and (max-width: 576px) {
+    bottom: 20px;
+    left: 30px;
+  }
+}

@@ -1,0 +1,230 @@
+#project {
+
+  .scrollAppear {
+    opacity: 0;
+  }
+
+  .container-content {
+    padding: 200px 0;
+    justify-content: center;
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+      padding: 100px 0;
+    }
+
+    .title {
+      padding: 10px 0;
+      h1 {
+        font-family: $medium;
+        font-size: 25px;
+        text-align: center;
+      }
+    }
+    .description {
+      padding: 10px 25px 50px 25px;
+      p {
+        font-family: $medium;
+        font-size: 13px;
+      }
+      .link {
+        text-align: right;
+        a {
+          font-size: 15px;
+          text-transform: uppercase;
+          font-family: $bold;
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+    .subtitle {
+      h3 {
+        font-size: 23px;
+        padding: 10px 0;
+        font-family: $medium;
+      }
+    }
+    .container-images {
+      padding: 0px 15px;
+      .col-image {
+        padding: 15px 20px 15px 10px;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .iframe-container {
+          position: relative;
+        	padding-bottom: 56.25%; /* 16:9 */
+        	padding-top: 25px;
+        	height: 0;
+
+          iframe {
+            position: absolute;
+          	top: 0;
+          	left: 0;
+          	width: 100%;
+          	height: 100%;
+          }
+        }
+
+        .video-wrapper {
+        	position: relative;
+        	padding-bottom: 56.25%; /* 16:9 */
+        	padding-top: 25px;
+        	height: 0;
+          iframe {
+          	position: absolute;
+          	top: 0;
+          	left: 0;
+          	width: 100%;
+          	height: 100%;
+          }
+        }
+      }
+    }
+
+    .container-iframes {
+      justify-content: center;
+    }
+
+    .container-image {
+      padding: 0px 15px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .container-details {
+      padding: 50px 15px;
+
+      .row {
+        margin: 100px 0;
+      }
+
+      p {
+        font-size: 13px;
+        font-family: $medium;
+      }
+
+      h2 {
+        font-size: 40px;
+        margin: 100px 0 60px 0;
+        font-family: $bold;
+        text-align: center;
+      }
+
+      .color {
+        position: relative;
+        width: 250px;
+        height: 180px;
+
+        @media screen and (max-width: 768px) {
+          width: 180px;
+          height: 130px;
+        }
+
+        @media screen and (max-width: 576px) {
+          width: 120px;
+          height: 80px;
+        }
+        @media screen and (max-width: 400px) {
+          width: 110px;
+          height: 70px;
+        }
+
+        &.blue {
+          background-color: blue;
+        }
+        &.yellow {
+          background-color: #F9F906;
+        }
+        &.gandi {
+          background-color: #0FABAB;
+        }
+
+        .code-color {
+          z-index: 1;
+          font-size: 40px;
+          position: absolute;
+          top: 50%;
+          transform: translate(0, -50%);
+          right: -20%;
+          font-family: $bold;
+          @media screen and (max-width: 768px) {
+            font-size: 30px;
+          }
+          @media screen and (max-width: 576px) {
+            font-size: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+          @media screen and (max-width: 400px) {
+            font-size: 15px;
+          }
+        }
+
+      }
+
+      .charte {
+        align-items: center;
+      }
+
+      .col-font {
+        margin: 100px 0;
+
+        &.montserrat {
+          font-family: 'Montserrat';
+        }
+
+        &.passionone {
+          font-family: "Passion One";
+        }
+
+        &.col-margin-0 {
+          margin: 0;
+        }
+        .font {
+          font-size: 50px;
+          line-height: 40px;
+          text-transform: uppercase;
+
+          @media screen and (max-width: 768px) {
+            font-size: 30px;
+            line-height: 25px;
+          }
+          @media screen and (max-width: 576px) {
+            font-size: 20px;
+            line-height: 20px;
+          }
+
+          &.regular {
+            font-weight: 400;
+          }
+          &.bold {
+            font-weight: 700;
+          }
+          &.black {
+            font-weight: 900;
+          }
+        }
+      }
+
+    }
+
+    .box-link {
+      text-align: center;
+      a {
+        padding: 5px 10px;
+        color: black;
+        font-family: $black;
+        font-size: 20px;
+        text-transform: uppercase;
+        background-color: white;
+        text-align: center;
+      }
+    }
+  }
+
+
+}
