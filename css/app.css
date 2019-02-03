@@ -125,63 +125,61 @@ a {
         right: 0;
         text-align: right;
         border-bottom: 3px solid white; }
-        #home .section-container .container-text .link a:hover {
-          border-bottom: 3px solid white; }
-          #home .section-container .container-text .link a:hover:after {
-            position: absolute;
-            top: 0;
-            left: 0;
-            content: 'click to see my cv';
-            color: #0000ff;
-            border-bottom: 3px solid #0000ff;
-            -webkit-animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-                    animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite; }
-
-@-webkit-keyframes glitch {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0); }
-  20% {
-    -webkit-transform: translate(-1px, 1px);
-            transform: translate(-1px, 1px); }
-  40% {
-    -webkit-transform: translate(-1px, -1px);
-            transform: translate(-1px, -1px); }
-  60% {
-    -webkit-transform: translate(1px, 1px);
-            transform: translate(1px, 1px); }
-  80% {
-    -webkit-transform: translate(1px, -1px);
-            transform: translate(1px, -1px); }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-    opacity: 0; } }
-
-@keyframes glitch {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0); }
-  20% {
-    -webkit-transform: translate(-1px, 1px);
-            transform: translate(-1px, 1px); }
-  40% {
-    -webkit-transform: translate(-1px, -1px);
-            transform: translate(-1px, -1px); }
-  60% {
-    -webkit-transform: translate(1px, 1px);
-            transform: translate(1px, 1px); }
-  80% {
-    -webkit-transform: translate(1px, -1px);
-            transform: translate(1px, -1px); }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-    opacity: 0; } }
-
-@-webkit-keyframes glitch1 {}
-
-@keyframes glitch1 {}  #home .section-container .container-video {
+        @media screen and (min-width: 769px) {
+          #home .section-container .container-text .link a:hover {
+            border-bottom: 3px solid white; }
+            #home .section-container .container-text .link a:hover:after {
+              position: absolute;
+              top: 0;
+              left: 0;
+              content: 'click to see my cv';
+              color: #0000ff;
+              border-bottom: 3px solid #0000ff;
+              -webkit-animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+                      animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite; }
+          @-webkit-keyframes glitch {
+            0% {
+              -webkit-transform: translate(0);
+                      transform: translate(0); }
+            20% {
+              -webkit-transform: translate(-1px, 1px);
+                      transform: translate(-1px, 1px); }
+            40% {
+              -webkit-transform: translate(-1px, -1px);
+                      transform: translate(-1px, -1px); }
+            60% {
+              -webkit-transform: translate(1px, 1px);
+                      transform: translate(1px, 1px); }
+            80% {
+              -webkit-transform: translate(1px, -1px);
+                      transform: translate(1px, -1px); }
+            100% {
+              -webkit-transform: translate(0);
+                      transform: translate(0);
+              opacity: 0; } }
+          @keyframes glitch {
+            0% {
+              -webkit-transform: translate(0);
+                      transform: translate(0); }
+            20% {
+              -webkit-transform: translate(-1px, 1px);
+                      transform: translate(-1px, 1px); }
+            40% {
+              -webkit-transform: translate(-1px, -1px);
+                      transform: translate(-1px, -1px); }
+            60% {
+              -webkit-transform: translate(1px, 1px);
+                      transform: translate(1px, 1px); }
+            80% {
+              -webkit-transform: translate(1px, -1px);
+                      transform: translate(1px, -1px); }
+            100% {
+              -webkit-transform: translate(0);
+                      transform: translate(0);
+              opacity: 0; } }
+          @-webkit-keyframes glitch1 {}
+          @keyframes glitch1 {} }
+  #home .section-container .container-video {
     padding: 0; }
     #home .section-container .container-video .video {
       position: relative;
@@ -695,6 +693,8 @@ a {
         line-height: 100px; } }
     @media screen and (max-width: 550px) {
       .loader-container .elt-loader {
+        -webkit-animation: none;
+                animation: none;
         font-size: 80px;
         line-height: 80px; } }
     @media screen and (max-width: 450px) {

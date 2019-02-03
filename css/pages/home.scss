@@ -43,43 +43,47 @@
           right: 0;
           text-align: right;
           border-bottom: 3px solid white;
-          &:hover {
-            border-bottom: 3px solid white;
-            &:after {
-              position: absolute;
-              top: 0;
-              left: 0;
-              content: 'click to see my cv';
-              color: $blue;
-              border-bottom: 3px solid $blue;
-              animation: glitch .5s cubic-bezier(.25, .46, .45, .94) both infinite;
-            }
 
-            @keyframes glitch {
-              0% {
-                  transform: translate(0)
+          @media screen and (min-width: 769px) {
+            &:hover {
+              border-bottom: 3px solid white;
+              &:after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: 'click to see my cv';
+                color: $blue;
+                border-bottom: 3px solid $blue;
+                animation: glitch .5s cubic-bezier(.25, .46, .45, .94) both infinite;
               }
-              20% {
-                  transform: translate(-1px, 1px)
-              }
-              40% {
-                  transform: translate(-1px, -1px)
-              }
-              60% {
-                  transform: translate(1px, 1px)
-              }
-              80% {
-                  transform: translate(1px, -1px)
-              }
-              100% {
-                  transform: translate(0);
-                  opacity: 0;
-              }
-            }
-            @keyframes glitch1 {
 
+              @keyframes glitch {
+                0% {
+                    transform: translate(0)
+                }
+                20% {
+                    transform: translate(-1px, 1px)
+                }
+                40% {
+                    transform: translate(-1px, -1px)
+                }
+                60% {
+                    transform: translate(1px, 1px)
+                }
+                80% {
+                    transform: translate(1px, -1px)
+                }
+                100% {
+                    transform: translate(0);
+                    opacity: 0;
+                }
+              }
+              @keyframes glitch1 {
+
+              }
             }
           }
+
         }
       }
     }
