@@ -8,15 +8,52 @@
   top: 0;
   left: 0;
   background-color: black;
+  align-items: center;
 
   .elt-loader {
-    line-height: 270px;
+    display: none;
+    line-height: 240px;
     white-space: nowrap;
-    font-size: 250px;
+    font-size: 240px;
     text-transform: uppercase;
     font-family: $black;
     color: $blue;
     animation: defile 2s forwards linear;
+
+    @media screen and (max-width: 1295px) {
+      font-size: 200px;
+      line-height: 200px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      font-size: 180px;
+      line-height: 180px;
+    }
+
+    @media screen and (max-width: 940px) {
+      font-size: 150px;
+      line-height: 150px;
+    }
+
+    @media screen and (max-width: 790px) {
+      font-size: 120px;
+      line-height: 120px;
+    }
+
+    @media screen and (max-width: 650px) {
+      font-size: 100px;
+      line-height: 100px;
+    }
+
+    @media screen and (max-width: 550px) {
+      font-size: 80px;
+      line-height: 80px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 70px;
+      line-height: 70px;
+    }
 
     @keyframes defile {
       0% {

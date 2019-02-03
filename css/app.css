@@ -658,16 +658,49 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black; }
+  background-color: black;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .loader-container .elt-loader {
-    line-height: 270px;
+    display: none;
+    line-height: 240px;
     white-space: nowrap;
-    font-size: 250px;
+    font-size: 240px;
     text-transform: uppercase;
     font-family: "helveticaneueheavy", Helvetica, Arial, sans-serif;
     color: #0000ff;
     -webkit-animation: defile 2s forwards linear;
             animation: defile 2s forwards linear; }
+    @media screen and (max-width: 1295px) {
+      .loader-container .elt-loader {
+        font-size: 200px;
+        line-height: 200px; } }
+    @media screen and (max-width: 1000px) {
+      .loader-container .elt-loader {
+        font-size: 180px;
+        line-height: 180px; } }
+    @media screen and (max-width: 940px) {
+      .loader-container .elt-loader {
+        font-size: 150px;
+        line-height: 150px; } }
+    @media screen and (max-width: 790px) {
+      .loader-container .elt-loader {
+        font-size: 120px;
+        line-height: 120px; } }
+    @media screen and (max-width: 650px) {
+      .loader-container .elt-loader {
+        font-size: 100px;
+        line-height: 100px; } }
+    @media screen and (max-width: 550px) {
+      .loader-container .elt-loader {
+        font-size: 80px;
+        line-height: 80px; } }
+    @media screen and (max-width: 450px) {
+      .loader-container .elt-loader {
+        font-size: 70px;
+        line-height: 70px; } }
 
 @-webkit-keyframes defile {
   0% {
