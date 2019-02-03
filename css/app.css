@@ -693,8 +693,6 @@ a {
         line-height: 100px; } }
     @media screen and (max-width: 550px) {
       .loader-container .elt-loader {
-        -webkit-animation: none;
-                animation: none;
         font-size: 80px;
         line-height: 80px; } }
     @media screen and (max-width: 450px) {

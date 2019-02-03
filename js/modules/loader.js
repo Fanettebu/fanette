@@ -26,38 +26,24 @@ function buildLoader() {
 
   $(".elt-loader").css("display", "block");
 
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 function loader() {
   TweenMax.fromTo("body", .5, {autoAlpha: 0}, {autoAlpha: 1});
-  let hithere = new TimelineMax({
-    repeat: 4
-  });
 
-  hithere.add([
-    TweenMax.to(".loader-container", .01, {backgroundColor: "white", delay: .2})
-  ])
-  .add([
-    TweenMax.to(".loader-container", .01, {backgroundColor: "black", delay: .2})
-  ]);
+  if(window.innerWidth >= 500 && window.innerHeight >= 700) {
+    let hithere = new TimelineMax({
+      repeat: 4
+    });
+
+    hithere.add([
+      TweenMax.to(".loader-container", .01, {backgroundColor: "white", delay: .2})
+    ])
+    .add([
+      TweenMax.to(".loader-container", .01, {backgroundColor: "black", delay: .2})
+    ]);
+  }
 
   setTimeout(function(){
     let hithereOff = new TimelineMax();
