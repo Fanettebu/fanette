@@ -3,12 +3,14 @@ $(document).ready(function(){
     buildLoader();
     loader();
   } else {
+    buildLoader();
     loaderMobile();
   }
   videoLoading();
 });
 
 function loaderMobile() {
+  TweenMax.fromTo("body", .5, {autoAlpha: 0}, {autoAlpha: 1});
 
   setTimeout(function(){
     let hithereOff = new TimelineMax();
@@ -37,7 +39,7 @@ function buildLoader() {
   let content = $(".elt-loader")[0].innerHTML;
   let height = $(".elt-loader").height();
   let number = Math.floor(window.innerHeight / height);
-  
+
   for(i = 0; i < number - 1; i++) {
     let div = document.createElement("DIV");
     div.setAttribute("class", "elt-loader");
