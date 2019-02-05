@@ -21,9 +21,6 @@
 
       @media screen and (max-width: 768px) {
         padding: 0;
-        &:before {
-          display: none;
-        }
       }
 
       @media screen and (max-width: 576px) {
@@ -42,7 +39,7 @@
         left: 0%;
       }
 
-      &:hover, &.active {
+      &.active:hover {
         cursor: pointer;
         &:before {
           transition: ease-out .2s width;
@@ -53,6 +50,41 @@
           position: absolute;
           top: 50%;
           left: 0%;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        &:before {
+          transition: ease-out .2s width;
+          content: '';
+          width: 100%;
+          height: 7px;
+          background-color: $blue;
+          position: absolute;
+          top: 50%;
+          left: 0%;
+
+          @media screen and (max-width: 768px) {
+            width: 0;
+          }
+        }
+      }
+      &.active {
+        cursor: pointer;
+        &:before {
+          transition: ease-out .2s width;
+          content: '';
+          width: 100%;
+          height: 7px;
+          background-color: $blue;
+          position: absolute;
+          top: 50%;
+          left: 0%;
+
+          @media screen and (max-width: 768px) {
+            width: 100%;
+          }
         }
       }
     }
