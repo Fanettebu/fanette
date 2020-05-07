@@ -316,6 +316,11 @@ a {
             -webkit-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
                     transform: translateY(-50%); }
+
+        @media screen and (max-width: 600px) {
+          #work .container-work .container-project .elt-project ul .project-item .title-project:after  {
+            background-color: transparent; } }
+
           #work .container-work .container-project .elt-project ul .project-item .title-project.active:after {
             transition: ease-out .2s width;
             width: 100%; }
