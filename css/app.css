@@ -254,7 +254,7 @@ a {
         text-transform: uppercase;
         line-height: 65px;
         text-align: right; }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 968px) {
           #work .container-work .container-project .elt-project ul .project-item {
             height: 50vw;
             font-size: 40px;
@@ -287,21 +287,23 @@ a {
               background-image: url(../sources/klein-mobile.jpg); }
             #work .container-work .container-project .elt-project ul .project-item.item1 {
               background-image: url(../sources/audiovisuel-mobile.jpg); } }
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 700px) {
           #work .container-work .container-project .elt-project ul .project-item {
-            font-size: 30px; } }
-        @media screen and (max-width: 400px) {
+            font-size: 10px; } }
+        @media screen and (max-width: 600px) {
           #work .container-work .container-project .elt-project ul .project-item {
             font-size: 22px; } }
         #work .container-work .container-project .elt-project ul .project-item .title-project {
-          padding: 0 15px;
+          padding: 0px 20px;
           white-space: nowrap;
           position: relative; }
-          @media screen and (max-width: 768px) {
+        
+
+       /* @media screen and (max-width: 768px) {
             #work .container-work .container-project .elt-project ul .project-item .title-project {
-              background-color: black; }
-              #work .container-work .container-project .elt-project ul .project-item .title-project:after {
-                display: none; } }
+              background-color: black;
+               } */
+             
           #work .container-work .container-project .elt-project ul .project-item .title-project:after {
             transition: ease-out .2s width;
             content: '';
@@ -614,7 +616,7 @@ a {
     padding: 0 10px;
     position: relative;
     line-height: 45px;
-    color: #0000ff;
+    color: #ffffff;
     font-size: 50px;
     font-family: "helveticaneuebold", Helvetica, Arial, sans-serif; }
     @media screen and (max-width: 768px) {
