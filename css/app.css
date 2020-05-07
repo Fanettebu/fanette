@@ -308,7 +308,7 @@ a {
             transition: ease-out .2s width;
             content: '';
             width: 0%;
-            height: 13px;
+            height: 10px;
             background-color: white;
             position: absolute;
             top: 50%;
