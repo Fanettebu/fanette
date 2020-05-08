@@ -368,6 +368,9 @@ a {
     #project .container-content .description p {
       font-family: "helveticaneuemedium", Helvetica, Arial, sans-serif;
       font-size: 13px; }
+      @media screen and (max-width: 768px) {
+    #project .container-content .description p {
+      font-size: 8px; } }
     #project .container-content .description .link {
       text-align: right; }
       #project .container-content .description .link a {
