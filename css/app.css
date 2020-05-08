@@ -365,6 +365,9 @@ a {
   #project .container-content .description {
     padding: 10px 25px 10px 25px; 
     text-align: center;}
+    @media screen and (max-width: 768px) {
+    #project .container-content .description {
+      padding: 10px 25px 0px 25px; } }
     #project .container-content .description p {
       font-family: "helveticaneuemedium", Helvetica, Arial, sans-serif;
       font-size: 13px; }
