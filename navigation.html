@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8">
+<title>Navigation</title>
+
+<link rel="stylesheet" type="text/css" href="script/style.css">
+
+
+<script>
+function AutomaScroll(cible) {
+document.querySelector(cible).scrollIntoView({ behavior: 'smooth' });
+}
+/*
+Solution sans jQuery.
+Ne fonctionne pas correctement sur Safari.
+Pour compatibilité, voir le polyfill (Un Polyfill est un émulateur qui imite des fonctions non disponibles, pour tout navigateur) :
+http://iamdustan.com/smoothscroll/
+*/
+
+</script>
+
+
+</head> <!-- On referme la partie head -->
+<body>  <!-- La partie body contient tous les éléments de contenu -->
+
+
+<div id="menu">
+<a href="javascript:AutomaScroll('#link1');">SOME PICTURES</a><br> <!-- <a href="#link1">Lien 1</a><br> -->
+<a href="javascript:AutomaScroll('#link2');">PAS DE TINDER, PAS DE FEU</a><br> <!-- <a href="#link2">Lien 2</a><br> -->
+<a href="javascript:AutomaScroll('#link5');">I WATCH THEM DANCE</a><br> <!-- <a href="#link5">Lien 5</a><br> -->
+<a href="javascript:AutomaScroll('#link3');">CAMPAGNE BAILEYS</a><br> <!-- <a href="#link3">Lien 3</a><br> -->
+<a href="javascript:AutomaScroll('#link4');">TYPO SOUS LES TABLES</a><br> <!-- <a href="#link4">Lien 4</a><br> -->
+</div>
+
+<div id="conteneur">
+<div id="link1" class="elements"> 
+<a href=""><img src="images/photography/agathe.png" alt=""></a>
+<a href=""><img src="images/photography/emma3.jpg" alt=""></a>
+<a href=""><img src="images/photography/pops2.jpg" alt=""></a>
+<a href=""><img src="images/photography/leo.jpg" alt=""></a>
+<a href=""><img src="images/photography/tom.jpg" alt=""></a>
+</div>
+
+<div id="transi">
+</div>
+
+<div id="link2" class="elements">
+<a href=""><img src="images/souslestables/typo2.jpg" alt=""></a>
+<a href=""><img src="images/souslestables/typo3.jpg" alt=""></a>
+<a href=""><img src="images/souslestables/typo4.jpg" alt=""></a>
+<a href=""><img src="images/souslestables/typo.jpg" alt=""></a>
+</div>
+
+<div id="transi">
+</div>
+
+<div id="link3" class="elements">
+<!--video-->
+<a href=""><img src="images/lesmonstres/monstre3.png" alt=""></a>
+<a href=""><img src="images/lesmonstres/2.png" alt=""></a>
+<a href=""><img src="images/lesmonstres/3.png" alt=""></a>
+<a href=""><img src="images/lesmonstres/6.png" alt=""></a>
+<a href=""><img src="images/lesmonstres/7.png" alt=""></a>
+<a href=""><img src="images/lesmonstres/monstre1.jpg" alt=""></a>
+</div>
+
+<div id="transi">
+</div>
+
+<div id="link4" class="elements">
+<a href=""><img src="images/videos/melvideo.gif" alt=""></a>
+</div>
+
+<div id="transi">
+</div>
+
+<div id="link5" class="elements">
+<a href=""><img src="images/fantasmagoria/fan2.jpg" alt=""></a>
+<a href=""><img src="images/fantasmagoria/fan3.jpg" alt=""></a>
+<a href=""><img src="images/fantasmagoria/fan.jpg" alt=""></a>
+</div>
+
+</div>
+
+</body> <!-- On referme la partie body -->
+</html> <!-- On referme la page web -->
