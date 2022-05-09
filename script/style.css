@@ -1,0 +1,528 @@
+@charset "UTF-8";
+
+@font-face {font-family: "AT_Apoc_Light";
+  src: url("../font/AT_Apoc_Light.woff") format("woff"); /* IE9*/
+}
+
+
+@font-face {font-family: "AT_Apoc_Light_Italic";
+  src: url("../font/AT_Apoc_Light_Italic.woff") format("woff"); /* IE9*/
+}
+
+@font-face {font-family: "Cirka_light";
+  src: url("../font/Cirka_light.woff") format("woff"); /* IE9*/
+}
+
+
+
+
+
+html {
+/* overflow: hidden; */
+font-family: "AT_Apoc_Light"; 
+overflow: hidden;
+}
+
+
+body {
+margin:20px;     
+background-color: white;
+line-height: 0px;       /* Bord tournant de 20px */
+
+}
+
+
+#menu { 
+font-size: 33px;     
+line-height: 30px;       /* Bord tournant de 20px */
+position:fixed;         /* Position fixe du menu */
+top:20px;               /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+left:20px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+width:30%;  			/* Largeur du menu correspondant à 20% de l'élément parent (la page) */
+padding-top: auto;
+padding-bottom: auto;
+}
+
+
+
+
+.back {
+font-size: 33px;     
+line-height: 30px;       /* Bord tournant de 20px */
+font-family: "Cirka_light";
+position: fixed;
+left:23px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+width:24%; 
+bottom: 20px;
+text-align: left;
+color: black;
+text-decoration: none;
+}
+
+
+/*About titre image*/
+.about {
+line-height: 30px;       /* Bord tournant de 20px */	
+font-size: 17px;
+position: fixed;
+bottom:15px;
+right:23px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+width:24.1%; 
+text-align: right;
+}
+
+.manImg { 
+display: none; 
+width: 100%;
+height: 100%;
+}
+
+.about:hover .manImg { 
+display: block; 
+}
+
+
+
+
+/*Photography titre index*/
+.photography{
+position: fixed;
+top:20px;               
+left:20px;      
+display: none;      
+} 
+
+.emmaImg{
+display: none;
+}
+
+.photography:hover .emmaImg { 
+display: block; 
+position: fixed;
+right:13px;    
+object-fit: contain;
+}
+
+.emmaImg3{
+display: none;
+}
+
+.photography:hover .emmaImg3 { 
+display: block; 
+position: fixed;
+right:133px;    
+bottom:53px;    
+object-fit: contain;
+}
+
+.emmaImg2{
+display: none;
+}
+
+.photography:hover .emmaImg2 { 
+display: block; 
+position: fixed;
+right:673px;    
+top:333px;  
+object-fit: contain;
+}
+
+
+
+/*Vidéos titre index*/
+.videos{
+position: fixed;
+top:55px;               
+left:20px;            
+} 
+
+.videosImg{
+display: none;
+}
+
+.videos:hover .videosImg { 
+display: block; 
+position: fixed;
+right:273px;    
+top:133px;  
+object-fit: contain;
+}
+
+.videosImg2{
+display: none;
+}
+
+.videos:hover .videosImg2 { 
+display: block; 
+position: fixed;
+left:273px;    
+bottom:133px;  
+object-fit: contain;
+}
+
+
+
+
+/*Tinder titre index*/
+.tinder{
+position: fixed;
+top:90px;               
+left:20px;            
+} 
+
+.tinderImg{
+display: none;
+}
+
+.tinder:hover .tinderImg { 
+display: block; 
+position: fixed;
+right:20px;   
+bottom: 200px; 
+object-fit: contain;
+}
+
+
+/*Baileys titre index*/
+.baileys{
+position: fixed;
+top:125px;               
+left:20px;            
+} 
+
+.baileysImg{
+display: none;
+}
+
+.baileys:hover .baileysImg { 
+display: block; 
+position: fixed;
+left:13px; 
+bottom:100px;   
+object-fit: contain;
+}
+
+.baileysImg2{
+display: none;
+}
+
+.baileys:hover .baileysImg2 { 
+display: block; 
+position: fixed;
+right:1213px; 
+top:250px;   
+object-fit: contain;
+}
+
+.baileysImg3{
+display: none;
+}
+
+.baileys:hover .baileysImg3 { 
+display: block; 
+position: fixed;
+right:513px; 
+bottom:60px;   
+object-fit: contain;
+}
+
+.baileysImg4{
+display: none;
+}
+
+.baileys:hover .baileysImg4 { 
+display: block; 
+position: fixed;
+right:313px; 
+top:40px;   
+object-fit: contain;
+}
+
+.baileysImg5{
+display: none;
+}
+
+.baileys:hover .baileysImg5 { 
+display: block; 
+position: fixed;
+left:550px; 
+bottom:710px;   
+object-fit: contain;
+}
+
+
+.baileysImg6{
+display: none;
+}
+
+.baileys:hover .baileysImg6 { 
+display: block; 
+position: fixed;
+right:3px; 
+bottom:480px;   
+object-fit: contain;
+}
+
+.baileysImg7{
+display: none;
+}
+
+.baileys:hover .baileysImg7 { 
+display: block; 
+position: fixed;
+right:800px; 
+bottom:210px;   
+object-fit: contain;
+}
+
+
+/*Typo titre index*/
+.typo{
+position: fixed;
+top:160px;               
+left:20px;            
+} 
+
+.typoImg{
+display: none;
+}
+
+.typo:hover .typoImg { 
+display: block; 
+position: fixed;
+right:273px;    
+top:133px;  
+object-fit: contain;
+}
+
+
+
+/*Titres menu*/
+a.bar {
+color: black;
+text-decoration: none;
+}
+
+a:hover.bar {
+font-family: AT_Apoc_Light_Italic;
+text-decoration: underline;
+color: black;
+}
+
+
+
+/*Horloge titre index*/
+.p5{
+position: fixed;
+top:195px;               
+left:20px;            
+} 
+
+.horlogeImg{
+display: none;
+}
+
+.p5:hover .horlogeImg { 
+display: block; 
+position: fixed;
+left:73px;    
+top:633px;  
+object-fit: contain;
+}
+
+.horlogeImg1{
+display: none;
+}
+
+.p5:hover .horlogeImg1 { 
+display: block; 
+position: fixed;
+left:300px;    
+top:190px;  
+object-fit: contain;
+transform: rotate(90deg);
+}
+
+/*.hover1 { 
+display: none; 
+}*/
+
+.link1 {
+background-color: green;
+}
+
+.testhover:hover .hover1 { 
+display: block; 
+}
+
+
+a.img-text {
+text-decoration: underline;
+color: black;
+}
+
+a.img-text:hover {
+text-decoration: underline;
+color: black;
+}
+
+
+
+
+
+
+#conteneur {
+position: fixed;     /* Élément positionné par rapport à son parent (la page) */
+overflow-y: scroll;
+bottom: -5px;
+left:580px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+top: 0px;
+width: calc(100%-40px);
+padding-left: 0px;
+padding-right: 0px;
+}
+
+#conteneur-f451 {
+position: fixed;     /* Élément positionné par rapport à son parent (la page) */
+overflow-y: scroll;
+bottom: -5px;
+left:900px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+top: 0px;
+width: calc(100%-40px);
+padding-left: 0px;
+padding-right: 0px;
+}
+
+div.elements {
+width:100%;             /* Largeur maximale dans l'élément parent (le calque "conteneur") */
+/*height:790px;*/           /* Hauteur fixée à 700px, valeur arbitraire pour l'exemple */
+margin-bottom:0px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+/*overflow: scroll;*/
+}
+
+#link2 {
+margin-top:0px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+}
+
+#link3 {
+margin-top:0px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+}
+
+#link4 {
+margin-top:0px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+}
+
+#link5 {
+margin-top:0px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+}
+
+div.elements img {
+width: 100%; 
+}
+
+div.elements video {
+width: 100%; 
+}
+
+#transi {
+padding-top:50px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+padding-bottom:50px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+/* padding-right:25px; */    /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+}
+
+/*
+p {
+	text-align: right;
+}
+*/
+
+.elements:last-of-type {
+margin-bottom:0;        /* On élimine la marge externe pour le dernier élément */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------RESPONSIVE GROS BLOC---------- */
+
+
+@media screen and (max-width: 1199px) {
+	#conteneur {
+		top: 218px;			
+			}
+	#transi {
+		padding-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+		padding-bottom:10px;
+	}
+
+	#link1 {
+		margin-bottom:7px;     
+	}
+
+	#link2 {
+		margin-top:10px;     
+		margin-bottom:7px;     
+	}
+
+	#link3 {
+		margin-bottom:7px;     
+		margin-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+	}
+
+	#link4 {
+		margin-bottom:7px;     
+		margin-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+	}
+
+	#link5 {
+		margin-bottom:7px;     
+		margin-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
+	}
+
+
+	
+}
+
+
+
+
+
+
+
+/* ----------RESPONSIVE MENU---------- */
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+
+	#menu {
+		width: 80%;
+		font-size: 35px;
+		line-height: 35px; 
+			}
+}
+
+@media screen and (min-width: 1200px) {
+	
+
+	#menu {
+		width: 90%;
+				}
+}
