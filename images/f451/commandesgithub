@@ -1,0 +1,5 @@
+cd chemin du dossier ( l c'est cd Documents/fanette)
+git pull
+git add .
+git commit -m "description"
+git push
