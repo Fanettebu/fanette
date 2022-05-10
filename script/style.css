@@ -299,15 +299,15 @@ object-fit: contain;
 
 /*Titres menu*/
 a.bar {
+font-size: 33px;   
 color: black;
 text-decoration: none;
 font-size: 33px;   
 }
 
 a:hover.bar {
-font-size: 33px;   
-font-family: AT_Apoc_Light_Italic;
 font-style: none;
+font-size: 33px;   
 text-decoration: underline;
 color: black;
 }
