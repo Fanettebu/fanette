@@ -178,7 +178,7 @@ display: none;
 .tinder:hover .tinderImg { 
 display: block; 
 position: fixed;
-right:20px;   
+right:200px;   
 bottom: 200px; 
 object-fit: contain;
 }
