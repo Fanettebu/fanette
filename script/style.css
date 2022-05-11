@@ -379,7 +379,7 @@ color: black;
 position: fixed;     /* Élément positionné par rapport à son parent (la page) */
 overflow-y: scroll;
 bottom: -5px;
-left:580px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+left:700px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
 top: 0px;
 width: calc(100%-40px);
 padding-left: 0px;
