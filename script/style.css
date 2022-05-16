@@ -164,11 +164,12 @@ object-fit: contain;
 
 
 
-/*Tinder titre index*/
+/*F451 titre index*/
 .f451{
 position: fixed;
 top:90px;               
-left:20px;            
+left:20px;      
+display: none;      
 } 
 
 .f451Img{
