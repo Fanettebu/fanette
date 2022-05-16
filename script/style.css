@@ -306,22 +306,12 @@ display: none;
 .baileys:hover .baileysImg7 { 
 display: block; 
 position: fixed;
-right:800px; 
-bottom:210px;   
-object-fit: contain;
-}
-
-.baileysImg8{
-display: none;
-}
-
-.baileys:hover .baileysImg8 { 
-display: block; 
-position: fixed;
 right:403px; 
 top:260px;   
 object-fit: contain;
 }
+
+
 
 
 /*Typo titre index*/
