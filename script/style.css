@@ -162,9 +162,40 @@ object-fit: contain;
 }
 
 
+/*Vidéos titre index*/
+.robot{
+position: fixed;
+top:90px;               
+left:20px;            
+} 
+
+.robotImg{
+display: none;
+}
+
+.robot:hover .robotImg { 
+display: block; 
+position: fixed;
+right:273px;    
+top:133px;  
+object-fit: contain;
+}
+
+.robotImg2{
+display: none;
+}
+
+.robot:hover .robotImg2 { 
+display: block; 
+position: fixed;
+left:273px;    
+bottom:133px;  
+object-fit: contain;
+}
 
 
-/*F451 titre index*/
+
+/*F451 titre index
 .f451{
 position: fixed;
 top:90px;               
@@ -219,6 +250,7 @@ right: 310px;
 top: 445px; 
 object-fit: contain;
 }
+
 
 /*Baileys titre index*/
 .baileys{
