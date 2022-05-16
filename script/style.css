@@ -207,6 +207,18 @@ top: 45px;
 object-fit: contain;
 }
 
+.tinderImg4{
+display: none;
+}
+
+.tinder:hover .tinderImg4 { 
+display: block; 
+position: fixed;
+right: 310px;   
+top: 445px; 
+object-fit: contain;
+}
+
 /*Baileys titre index*/
 .baileys{
 position: fixed;
@@ -299,6 +311,18 @@ bottom:210px;
 object-fit: contain;
 }
 
+.baileysImg8{
+display: none;
+}
+
+.baileys:hover .baileysImg8 { 
+display: block; 
+position: fixed;
+right:403px; 
+top:260px;   
+object-fit: contain;
+}
+
 
 /*Typo titre index*/
 .typo{
@@ -364,7 +388,7 @@ display: none;
 .p5:hover .horlogeImg1 { 
 display: block; 
 position: fixed;
-left:80px;    
+left:30px;    
 top:100px;  
 object-fit: contain;
 transform: rotate(90deg);
