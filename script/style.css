@@ -165,17 +165,17 @@ object-fit: contain;
 
 
 /*Tinder titre index*/
-.tinder{
+.f451{
 position: fixed;
 top:90px;               
 left:20px;            
 } 
 
-.tinderImg{
+.f451Img{
 display: none;
 }
 
-.tinder:hover .tinderImg { 
+.f451:hover .f451Img { 
 display: block; 
 position: fixed;
 right:690px;   
@@ -183,11 +183,11 @@ bottom: 75px;
 object-fit: contain;
 }
 
-.tinderImg2{
+.f451Img2{
 display: none;
 }
 
-.tinder:hover .tinderImg2 { 
+.f451:hover .f451Img2 { 
 display: block; 
 position: fixed;
 left: 90px;   
@@ -195,11 +195,11 @@ top: 350px;
 object-fit: contain;
 }
 
-.tinderImg3{
+.f451Img3{
 display: none;
 }
 
-.tinder:hover .tinderImg3 { 
+.f451:hover .f451Img3 { 
 display: block; 
 position: fixed;
 right: 110px;   
@@ -207,11 +207,11 @@ top: 45px;
 object-fit: contain;
 }
 
-.tinderImg4{
+.f451Img4{
 display: none;
 }
 
-.tinder:hover .tinderImg4 { 
+.f451:hover .f451Img4 { 
 display: block; 
 position: fixed;
 right: 310px;   
