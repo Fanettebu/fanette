@@ -68,14 +68,13 @@ font-size: 17px;
 position: fixed;
 bottom:15px;
 right:23px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
-width:30%; 
+width:50%; 
 text-align: right;
 }
 
 .manImg { 
 display: none; 
-width: 55%;
-height: 55%;
+width: 200px;
 }
 
 .about:hover .manImg { 
@@ -112,7 +111,7 @@ display: none;
 .photography:hover .emmaImg3 { 
 display: block; 
 position: fixed;
-right:133px;    
+right:163px;    
 bottom:53px;    
 object-fit: contain;
 }
@@ -124,7 +123,7 @@ display: none;
 .photography:hover .emmaImg2 { 
 display: block; 
 position: fixed;
-right:673px;    
+right:603px;    
 top:333px;  
 object-fit: contain;
 }
@@ -179,11 +178,34 @@ display: none;
 .tinder:hover .tinderImg { 
 display: block; 
 position: fixed;
-right:200px;   
-bottom: 200px; 
+right:690px;   
+bottom: 75px; 
 object-fit: contain;
 }
 
+.tinderImg2{
+display: none;
+}
+
+.tinder:hover .tinderImg2 { 
+display: block; 
+position: fixed;
+left: 90px;   
+top: 350px; 
+object-fit: contain;
+}
+
+.tinderImg3{
+display: none;
+}
+
+.tinder:hover .tinderImg3 { 
+display: block; 
+position: fixed;
+right: 110px;   
+top: 45px; 
+object-fit: contain;
+}
 
 /*Baileys titre index*/
 .baileys{
@@ -330,8 +352,8 @@ display: none;
 .p5:hover .horlogeImg { 
 display: block; 
 position: fixed;
-left:73px;    
-top:633px;  
+right: 150px;    
+top:533px;  
 object-fit: contain;
 }
 
@@ -342,8 +364,8 @@ display: none;
 .p5:hover .horlogeImg1 { 
 display: block; 
 position: fixed;
-left:300px;    
-top:190px;  
+left:80px;    
+top:100px;  
 object-fit: contain;
 transform: rotate(90deg);
 }
