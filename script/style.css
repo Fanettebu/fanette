@@ -12,7 +12,7 @@
 @font-face {font-family: "Cirka_light";
   src: url("../font/Cirka_light.woff") format("woff"); /* IE9*/
 }
-
+ 
 
 
 
@@ -346,7 +346,6 @@ object-fit: contain;
 
 
 
-
 /*Typo titre index*/
 .typo{
 position: fixed;
@@ -365,7 +364,6 @@ right:273px;
 top:133px;  
 object-fit: contain;
 }
-
 
 
 /*Titres menu*/
@@ -417,6 +415,7 @@ object-fit: contain;
 transform: rotate(90deg);
 }
 
+
 /*.hover1 { 
 display: none; 
 }*/
@@ -442,19 +441,17 @@ color: black;
 
 
 
-
-
-
 #conteneur {
 position: fixed;     /* Élément positionné par rapport à son parent (la page) */
 overflow-y: scroll;
 bottom: -5px;
-left:700px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
+right:0px;              /* Positionné à 20px du bord de la fenêtre – position équivalente au bord tournant */
 top: 0px;
-width: calc(100%-40px);
+width: 60%;
 padding-left: 0px;
 padding-right: 0px;
 }
+
 
 #conteneur-f451 {
 position: fixed;     /* Élément positionné par rapport à son parent (la page) */
@@ -498,17 +495,7 @@ div.elements video {
 width: 100%; 
 }
 
-#transi {
-padding-top:50px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
-padding-bottom:50px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
-/* padding-right:25px; */    /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
-}
 
-/*
-p {
-	text-align: right;
-}
-*/
 
 .elements:last-of-type {
 margin-bottom:0;        /* On élimine la marge externe pour le dernier élément */
@@ -539,6 +526,7 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 	#conteneur {
 		top: 218px;			
 			}
+
 	#transi {
 		padding-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
 		padding-bottom:10px;
