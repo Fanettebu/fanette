@@ -555,7 +555,7 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 
 	#conteneur {
 		top: 280px;	
-		width: 101%;
+		width: 102%;
 			}
 
 
@@ -759,7 +759,7 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 
 	.manImg { 
 	display: block; 
-	width: 450px;
+	width: 300px;
 	margin-left: auto;
 
 	}
