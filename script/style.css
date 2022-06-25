@@ -569,13 +569,9 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 
 @media screen and (max-width: 1199px) {
 	#conteneur {
-		top: 218px;			
+		top: 218px;		
 			}
 
-	#transi {
-		padding-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
-		padding-bottom:10px;
-	}
 
 	#link1 {
 		margin-bottom:7px;     
@@ -601,8 +597,175 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 		margin-top:10px;     /* Marge externe en bas de chaque élément afin de pousser vers le bas l'élément suivant */
 	}
 
+	.emmaImg{
+	display: none;
+	}
+
+	.photography:hover .emmaImg { 
+	display: none;
+	}
+	
+	.emmaImg3{
+	display: none;
+	}
+
+	.photography:hover .emmaImg3 { 
+	display: none;
+	}
+
+	.emmaImg2{
+	display: none;
+	}
+
+	.photography:hover .emmaImg2 { 
+	display: none;
+	}
+
+	.videoImg{
+	display: none;
+	}
+
+	.videos:hover .videosImg { 
+	display: none;
+	}
+
+	.videoImg2{
+	display: none;
+	}
+
+	.videos:hover .videosImg2 { 
+	display: none;
+	}
+
+	.robotImg{
+	display: none;
+	}
+
+	.robot:hover .robotImg { 
+	display: none;
+	}
+
+	.robotImg2{
+	display: none;
+	}
+
+	.robot:hover .robotImg2 { 
+	display: none;
+	}
+
+	.baileysImg{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg { 
+	display: none;
+	}
+
+	.baileysImg2{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg2 { 
+	display: none;
+	}
+
+	.baileysImg3{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg3 { 
+	display: none;
+	}
+
+	.baileysImg4{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg4 { 
+	display: none;
+	}
+
+	.baileysImg5{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg5 { 
+	display: none;
+	}
+
+	.baileysImg6{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg6 { 
+	display: none;
+	}
+
+	.baileysImg7{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg7 { 
+	display: none;
+	}
+
+	.typoImg{
+	display: none;
+	}
+
+	.typo:hover .typoImg { 
+	display: none;
+	}
+
+	.blurImg{
+	display: none;
+	}
+
+	.blur:hover .blurImg { 
+	display: none;
+	}
+
+	.blurImg2{
+	display: none;
+	}
+
+	.blur:hover .blurImg2 { 
+	display: none;
+	}
+
+	.blurImg1{
+	display: none;
+	}
+
+	.blur:hover .blurImg1 { 
+	display: none;
+	}
+
+	.horlogeImg{
+	display: none;
+	}
+
+	.p5:hover .horlogeImg { 
+	display: none;
+	}
+
+	.horlogeImg1{
+	display: none;
+	}
+
+	.p5:hover .horlogeImg1 { 
+	display: none;
+	}
+
+
+	.manImg { 
+	display: block; 
+	width: 500px;
+	}
 
 	
+
+
 }
 
 
@@ -623,6 +786,7 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 		width: 80%;
 		font-size: 35px;
 		line-height: 35px; 
+
 			}
 }
 
@@ -632,4 +796,5 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 	#menu {
 		width: 90%;
 				}
+
 }
