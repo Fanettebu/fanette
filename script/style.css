@@ -560,11 +560,12 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 
 
 	.back {
-	font-size: 33px;     
-	line-height: 30px;       /* Bord tournant de 20px */
+	font-size: 43px;     
 	font-family: "Cirka_light";
-	width:96%; 
-	top: 20px;
+	width:44%; 
+	top: 230px;
+	left: 537px;
+	bottom: 1750px;
 	text-align: right;
 	color: black;
 	text-decoration: none;
@@ -759,7 +760,7 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 
 	.manImg { 
 	display: block; 
-	width: 300px;
+	width: 350px;
 	margin-left: auto;
 
 	}
