@@ -381,12 +381,55 @@ text-decoration: underline;
 color: black;
 }
 
+.blur{
+position: fixed;
+top:195px;               
+left:20px;            
+} 
+
+.blurImg{
+display: none;           
+} 
+
+.blur:hover .blurImg{
+display: block; 
+position: fixed;
+right: 100px;    
+top:533px;  
+object-fit: contain;          
+} 
+
+.blurImg1{
+display: none;          
+} 
+
+.blur:hover .blurImg1{
+display: block; 
+position: fixed;
+right: 550px;    
+top:0px;  
+object-fit: contain;          
+} 
+
+.blurImg2{
+display: none;          
+} 
+
+.blur:hover .blurImg2{
+display: block; 
+position: fixed;
+left: 550px;    
+bottom:300px;  
+object-fit: contain;          
+} 
+
+
 
 
 /*Horloge titre index*/
 .p5{
 position: fixed;
-top:195px;               
+top:230px;               
 left:20px;            
 } 
 
@@ -414,6 +457,8 @@ top:100px;
 object-fit: contain;
 transform: rotate(90deg);
 }
+
+
 
 
 /*.hover1 { 
