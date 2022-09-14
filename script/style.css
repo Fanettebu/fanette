@@ -1,16 +1,13 @@
 @charset "UTF-8";
 
-@font-face {font-family: "AT_Apoc_Light";
-  src: url("../font/AT_Apoc_Light.woff") format("woff"); /* IE9*/
-}
 
+ 
+/*@font-face {font-family: "AT_Apoc_Light_Italic";*/
+  /*src: url("../font/AT_Apoc_Light_Italic.woff") format("woff");  IE9 } */
 
-@font-face {font-family: "AT_Apoc_Light_Italic";
-  src: url("../font/AT_Apoc_Light_Italic.woff") format("woff"); /* IE9*/
-}
 
 @font-face {font-family: "Cirka_light";
-  src: url("../font/Cirka_light.woff") format("woff"); /* IE9*/
+  src: url("../font/Cirka_light.woff") format("woff"); 
 }
  
 
@@ -19,7 +16,7 @@
 
 html {
 /* overflow: hidden; */
-font-family: "AT_Apoc_Light"; 
+font-family: 'Montserrat', sans-serif; 
 overflow: hidden;
 }
 
@@ -86,7 +83,7 @@ margin-left: auto;
 position: fixed;
 top:20px;               
 left:20px;      
-display: none;      
+display: none;    
 } 
 
 .emmaImg{
@@ -554,17 +551,26 @@ margin-bottom:0;        /* On élimine la marge externe pour le dernier élémen
 	
 
 	#conteneur {
-		top: 280px;	
-		width: 102%;
-		right: 0px;
-			}
+	top: 380px;	
+	width: 102%;
+	right: 0px;
+	}
 
+	
+
+	#menu {
+	font-size: 100px;
+	}
+
+	.photography {
+	background-color: green;
+	}
 
 	.back {
 	font-size: 43px;     
 	font-family: "Cirka_light";
 	width:44%; 
-	top: 230px;
+	top: 325px;
 	left: 537px;
 	bottom: 1750px;
 	text-align: right;
